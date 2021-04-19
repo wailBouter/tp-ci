@@ -1,0 +1,8 @@
+{
+  "name": "tp-ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kecsou/tp-ci.git",
+  "author": "kevin <kevin.voyer.developpeur@gmail.com>",
+  "license": "MIT"
+}
