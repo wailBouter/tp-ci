@@ -1,29 +1,9 @@
-/**
- * 
- * @param {number} a 
- * @param {number} b 
- * @returns 
- */
-module.exports.sum = function(a, b) {
-  return a + b;
-}
+const {
+  sum,
+  multiply,
+  divide,
+} = require('./src/calc');
 
-/**
- * 
- * @param {number} a 
- * @param {number} b 
- * @returns 
- */
-module.exports.multiply = function(a, b) {
-  return a * b;
-}
-
-/**
- * 
- * @param {number} a 
- * @param {number} b 
- * @returns
- */
-module.exports.divide = function(a, b) {
-  return a / b;
-}
+console.log('sum:', sum(2 , 2));
+console.log('multiply:', multiply(2 , 2));
+console.log('divide:', divide(2 , 2));

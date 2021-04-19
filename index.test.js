@@ -1,4 +1,4 @@
-const { sum, multiply, divide } = require('./index');
+const { sum, multiply, divide } = require('./src/calc');
 
 describe('Test all function inside of index file', () => {
   describe('Tests for function sum', () => {
