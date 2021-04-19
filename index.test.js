@@ -1,8 +1,14 @@
 const { sum, multiply, divide } = require('./index');
 
 describe('Test all function inside of index file', () => {
-  test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3);
+  describe('Tests for function sum', () => {
+    test('adds 1 + 2 to equal 3', () => {
+      expect(sum(1, 2)).toBe(3);
+    });
+
+    test('adds 22 + 2 to equal 24', () => {
+      expect(sum(22, 2)).toBe(24);
+    });
   });
 
   test('multiply 2 * 2 to equal 4', () => {
