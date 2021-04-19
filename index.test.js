@@ -16,7 +16,6 @@ describe('Test all function inside of index file', () => {
       expect(multiply(2, 2)).toBe(4);
     });
 
-
     test('multiply 0 * 2 to equal *', () => {
       expect(multiply(0, 2)).toBe(0);
     });
