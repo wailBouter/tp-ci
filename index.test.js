@@ -22,7 +22,13 @@ describe('Test all function inside of index file', () => {
     });
   });
 
-  test('divide 2 / 2 to equal 1', () => {
-    expect(divide(2, 2)).toBe(1);
+  describe('Tests for function multiply', () => {
+    test('divide 2 / 2 to equal 1', () => {
+      expect(divide(2, 2)).toBe(1);
+    });
+
+    test('divide 0 / 2 to equal 0', () => {
+      expect(divide(0, 2)).toBe(0);
+    });
   });
 });
